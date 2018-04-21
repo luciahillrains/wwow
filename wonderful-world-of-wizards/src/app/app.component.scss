@@ -1,0 +1,22 @@
+/*import '../assets/scss/settings'; */
+$black: #111111;
+$white: #EEEEEE;
+$linkColor: #333333;
+$linkGlow: #89fdff;
+
+
+* {
+	font-family: 'VT323', monospace; 
+}
+
+.small-text {
+	font-size: 0.5em;
+}
+
+.large-text {
+	font-size: 2em;
+}
+
+.centered {
+	margin: auto;
+}

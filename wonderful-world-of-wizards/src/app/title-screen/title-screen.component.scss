@@ -1,0 +1,12 @@
+@import '../app.component.scss';
+
+button { 
+	border: 0;
+	color: $linkColor;
+	background-color: transparent;
+}
+
+button:focus {
+	text-shadow: 0 0 3px $linkGlow;
+}
+

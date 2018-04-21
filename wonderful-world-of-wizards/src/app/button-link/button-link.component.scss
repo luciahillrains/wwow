@@ -1,0 +1,17 @@
+@import '../app.component.scss';
+
+button {
+	background-color: transparent;
+	border: 0px;
+	display: block;
+}
+
+button span {
+	color: $linkColor;
+	text-decoration: underline;
+}
+
+button:focus span {
+	text-shadow: 0 0 3px $linkGlow;
+}
+
