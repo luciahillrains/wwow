@@ -1,3 +1,25 @@
-<p>
-  new-account-screen works!
-</p>
+<h1>Create an Account</h1>
+<p>Creating an account allows you to play Wonderful World of Wizards.  Each account can have up to three characters.
+<div class="form-input">
+	<label>
+		Email:
+		<input [(ngModel)]="account.email" placeholder="Your Email"/>
+	</label>
+</div>
+<div class="form-input">
+	<label>
+		Password:
+		<input [(ngModel)]="account.password" type="password"/>
+	</label>
+</div>
+<div class="form-input">
+	<label>
+		Confirm the Password:
+		<input [(ngModel)]="account.passwordConfirm" type="password"/>
+	</label>
+</div>
+<div class="form-input">
+	<button (click)="submit()">
+		Create Account
+	</button>
+</div>

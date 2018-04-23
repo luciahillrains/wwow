@@ -20,3 +20,14 @@ $linkGlow: #89fdff;
 .centered {
 	margin: auto;
 }
+
+.form-input {
+	position: relative;
+	width: 25%;
+}
+
+.form-input input {
+	position: absolute;
+	right: 0px;
+	width: 50%;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "wwow-server",
+  "version": "1.0.0",
+  "description": "server for wwow",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "boop"
+  ],
+  "author": "lucy",
+  "license": "UNLICENSED"
+}
