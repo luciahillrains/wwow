@@ -8,6 +8,7 @@ import { TitleScreenComponent } from './title-screen/title-screen.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { ButtonLinkComponent } from './button-link/button-link.component';
 import { NewAccountScreenComponent } from './new-account-screen/new-account-screen.component';
+import { AccountService } from './account.service';
 
 
 @NgModule({
@@ -22,7 +23,7 @@ import { NewAccountScreenComponent } from './new-account-screen/new-account-scre
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [AccountService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
